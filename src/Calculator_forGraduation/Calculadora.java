@@ -11,7 +11,7 @@ public class Calculadora {
 				"Digite a operação (1-Adicao, 2-subtracao, 3-multiplicacao, 4-divisao, 5-Exponeniacao, 6-fatorial):");
 		int tipo = teclado.nextInt();
 		
-		if (tipo == 1 || tipo == 2 || tipo == 3 || tipo == 4 || tipo == 5 || tipo == 6) {
+		if (tipo >= 1 && tipo <= 6) {
 			System.out.println("Digite o valor 1");
 		} else {
 			System.out.println("Operacao invalida!");
