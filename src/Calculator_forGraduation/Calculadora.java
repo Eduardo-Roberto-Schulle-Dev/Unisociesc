@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calculadora {
 
 	public static void main(String[] args) {
-		//Dados de entrada
+		// Dados de entrada
 		Scanner teclado = new Scanner(System.in);
 		System.out.println(
 				"Digite a operação (1-Adicao, 2-subtracao, 3-multiplicacao, 4-divisao, 5-Exponeniacao, 6-fatorial):");
