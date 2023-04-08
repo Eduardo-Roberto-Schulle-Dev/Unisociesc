@@ -33,9 +33,9 @@ public class Calculadora {
 		case 2:
 			System.out.println("subtracao " + (valor1 - valor2));
 		case 3:
-			System.out.println("multiplicaca o" + (valor1 * valor2));
+			System.out.println("multiplicaca " + (valor1 * valor2));
 		case 4:
-			System.out.println("divisa o" + (valor1 / valor2));
+			System.out.println("divisa " + (valor1 / valor2));
 		default:
 			System.out.println("Operacao invalida!");
 
